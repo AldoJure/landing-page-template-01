@@ -1,0 +1,118 @@
+:root {
+    --font-primary: 'Gothic A1', sans-serif;
+    --font-secondary: 'Inika', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0 10%;
+    font-family: var(--font-primary);
+    background-color: #EDE8DA;
+}
+
+.navbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 2.4rem;
+    border: 1px solid #EDE8DA;
+}
+
+.navbar__logo--text {
+    font-family: var(--font-secondary);
+    color: #EDE8DA;
+    font-weight: 300;
+}
+
+.navbar__logo--text span {
+    font-weight: 700;
+}
+
+.navbar {
+    padding: 2rem 4.8rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__icons--item {
+    margin-right: 3.2rem;
+}
+
+.navbar__icons--item:last-child {
+    margin-right: 0;
+}
+
+.discount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 0;
+    background-color: #EDE8DA3D;
+}
+
+.discount-container--text {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #343434;
+}
+
+.hero-section {
+    width: 100%;
+    position: relative;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.hero-section p,
+.hero-section button {
+    position: absolute;
+}
+
+.hero-section p {
+    color: #262627;
+    font-size: 8rem;
+    top: 12.8rem;
+    left: 5.8rem;
+    width: 51.7rem;
+}
+
+.hero-section p span {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    color: #99968B;
+}
+
+.hero-section button {
+    padding: 2.4rem;
+    background-color: #F9CFB6;
+    border-radius: 0.8rem;
+    border: none;
+    color: #414040;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    top: 67rem;
+    left: 17.3rem;
+    cursor: pointer;
+}
